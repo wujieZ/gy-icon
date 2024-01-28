@@ -1,0 +1,36 @@
+{
+  "name": "gy-icon",
+  "version": "1.0.0",
+  "description": "gy-icon",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build:generate": "node build/generate.js",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "camelcase": "^8.0.0",
+    "chalk": "^5.3.0",
+    "consola": "^3.2.3",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.2.4",
+    "rollup": "^4.9.6",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-minify": "^1.0.3",
+    "rollup-plugin-vue": "^5.1.9",
+    "rollup-plugin-vue2": "^0.8.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
